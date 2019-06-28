@@ -11,6 +11,9 @@ This is also a workflow skillet included to run them in sequence.  Waiting a bug
 - Type of Skillet:  XML and REST
 - Purpose:  Config
 
+For more information on Panhandler and Skillets please refer to the documention.
+- https://panhandler.readthedocs.io
+
 ## Variables AppID
 
   - name: appid_name
@@ -21,19 +24,31 @@ This is also a workflow skillet included to run them in sequence.  Waiting a bug
     - description: appid_description
     - default: appid_description
     - type_hint: text
-  - name: address_name
-    - description: appgw_source_address_subnet
-    - default: appgw_source_address_subnet_name
+  - name: address_name1
+    - description: appgw_source_address_subnet1
+    - default: appgw_source_address_subnet_name1
     - type_hint: text
-  - name: address_cidr
-    - description: appgw_source_address_subnet
+  - name: address_cidr1
+    - description: appgw_source_address_subnet1
     - default: 10.0.0.0/24
     - type_hint: text    
-  - name: address_description
-    - description: appgw_source_address_description
-    - default: appgw_source_address_description
-    - type_hint: text      
-  - name: rule_name
+  - name: address_description1
+    - description: appgw_source_address_description1
+    - default: appgw_source_address_description1
+    - type_hint: text  
+  - name: address_name2
+    - description: appgw_source_address_subnet2
+    - default: appgw_source_address_subnet_name2
+    - type_hint: text
+  - name: address_cidr2
+    - description: appgw_source_address_subnet2
+    - default: 10.0.10.0/24
+    - type_hint: text    
+  - name: address_description2
+    - description: appgw_source_address_description2
+    - default: appgw_source_address_description2
+    - type_hint: text         
+- name: rule_name
     - description: security_rule_name
     - default: security_rule_name
     - type_hint: text
