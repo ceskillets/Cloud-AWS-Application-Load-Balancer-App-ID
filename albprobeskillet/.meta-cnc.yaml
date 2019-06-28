@@ -3,7 +3,7 @@
 # unique snippet name
 name: AwsAlbAppID
 # label used for menu selection
-label: appid
+label: appid - AWS ALB
 description: Skillet to create the Palo Alto Networks App-ID for the AWS Load Balancer Health Probe
 
 # type of device configuration
