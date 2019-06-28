@@ -1,7 +1,7 @@
 # AwsAlbAppID
 
 This repo contains 2 skillets.
-1. AzureAppGwAppID skillet to create the Palo Alto Networks App-ID for the AWS Load Balancer Health Probe.
+1. AwsAlbAppID skillet to create the Palo Alto Networks App-ID for the AWS Load Balancer Health Probe.
 2. move_rule_rest skillet to move the rule to its properly location above the actual application rule and commit.
 
 This is also a workflow skillet included to run them in sequence.  Waiting a bug in panhandler to be fixed which is preventing the execution of the second skillet.
