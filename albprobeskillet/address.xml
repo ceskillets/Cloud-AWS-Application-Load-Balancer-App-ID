@@ -1,4 +1,8 @@
-      <entry name="{{ address_name }}">
-        <ip-netmask>{{ address_cidr }}</ip-netmask>
-        <description>{{ address_description }}</description>
+      <entry name="{{ address_name1 }}">
+        <ip-netmask>{{ address_cidr1 }}</ip-netmask>
+        <description>{{ address_description1 }}</description>
       </entry>
+      <entry name="{{ address_name2 }}">
+        <ip-netmask>{{ address_cidr2 }}</ip-netmask>
+        <description>{{ address_description2 }}</description>
+      </entry>      
