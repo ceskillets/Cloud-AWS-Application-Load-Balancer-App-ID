@@ -89,7 +89,7 @@ variables:
 # to load and parse. Jinja2 style variables will be variable interpolated using the values of the 'variables' defined
 # in the 'variables' section.
 snippets:
-  - name: AzureAppGwAppID
+  - name: AwsAlbAppID
   - name: move_rule_rest
 
 
