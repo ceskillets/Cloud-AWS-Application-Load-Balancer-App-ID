@@ -13,6 +13,7 @@ labels:
     - Configure
     - NGFW
     - appid
+    - AWS
 
 variables:
   - name: TARGET_IP

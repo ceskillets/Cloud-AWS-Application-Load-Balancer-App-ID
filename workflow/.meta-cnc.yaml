@@ -16,6 +16,7 @@ extends:
 labels:
   collection:
     - appid
+    - AWS
 
 # variables define the things an operator may customize in this skillet. Things like DNS servers, NTP addresses, etc
 # may be customized for each deployment. Each variable will be rendered as a form field in the panhandler application
@@ -89,7 +90,7 @@ variables:
 # to load and parse. Jinja2 style variables will be variable interpolated using the values of the 'variables' defined
 # in the 'variables' section.
 snippets:
-  - name: AzureAppGwAppID
+  - name: AwsAlbAppID
   - name: move_rule_rest
 
 

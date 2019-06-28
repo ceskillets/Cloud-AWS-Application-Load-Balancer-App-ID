@@ -17,6 +17,7 @@ extends:
 labels:
   collection:
     - appid
+    - AWS
 
 # ---------------------------------------------------------------------
 # end of preamble section
